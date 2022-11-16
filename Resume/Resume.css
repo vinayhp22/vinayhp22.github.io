@@ -3,9 +3,9 @@
 }
 img{
 	position: static;
-	padding-left: 100px;
-	width:200px;
-	height:200px;
+	padding-left: 80px;
+	width: 200px;
+	height: 200px;
 }
 
 .contact{
@@ -17,8 +17,8 @@ body{
 	padding: 50px;
 	margin-right:10px;
     color: black
-   
 }
+
 h1{
 	background-color: tan;
 	font-size: 50px;	
@@ -42,6 +42,3 @@ ul{
 	position: absolute;
 	right: 200px;
 }
-
-
-
