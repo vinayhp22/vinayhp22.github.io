@@ -1,3 +1,51 @@
+.topleft{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: red;
+}
+
+.imageparent{
+    position: relative;
+}
+
+/*Descendant Selector */
+div p{
+    color: green;
+}
+/* Child Selector */
+div > p{
+    color: red;
+}
+/* Adjacent Siblimg Selector */
+div + p{
+    color: blue;
+}
+/*Genearal Siblimg Selector */
+div ~ p {
+    color: blueviolet;
+}
+/* 
+color property
+Position : top, bottom, right, left
+*/
+
+.static{
+    position: static;
+    left: 100px; 
+}
+
+.relative{
+    top: -240px;
+    right: -300px;
+    position: relative;
+}
+
+.absolute{
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
 
 .fixed{
     position: fixed;
@@ -15,11 +63,10 @@ ul{
     list-style-type: none;
     background-color: green;
     color: white;
-    position: absolute;
-    left: 0px;
-    
+    padding: 10px;
 }
 li{
     padding: 10px;
     margin: 0;
+    
 }
