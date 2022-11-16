@@ -1,0 +1,25 @@
+
+.fixed{
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: green;
+}
+.sticky{
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: red;
+}
+ul{
+    list-style-type: none;
+    background-color: green;
+    color: white;
+    position: absolute;
+    left: 0px;
+    
+}
+li{
+    padding: 10px;
+    margin: 0;
+}

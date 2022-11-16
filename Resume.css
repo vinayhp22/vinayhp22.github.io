@@ -1,0 +1,35 @@
+img{
+	position: static;
+	margin-right: 0;
+	width:200px;
+	height:200px;
+}
+
+body{
+	padding:1rem;
+	margin-right:10px;
+    color: black
+   
+}
+h1{
+	background-color: tan;
+	font-size: 50px;	
+}
+h3{
+	background-color:black;
+	color: white;
+	font-size: 25px;
+}
+h4{
+	background-color: coral;
+	font-size: 20px;
+}
+ul{
+	font-size: xx-large;
+}
+.vin{
+	padding: 0px;
+	margin: 0;	
+}
+
+
