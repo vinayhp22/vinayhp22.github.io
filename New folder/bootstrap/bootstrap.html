@@ -1,0 +1,83 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Facebook_f_logo_(2019).png" type="image/x-icon">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="css-bootstrap.css">
+
+    <title>Bootstrap Document</title>
+ </head>
+ <body>
+   
+    
+    <!--
+         Bootstrap - CSS framework
+         Responsive webpage ==== to work on all OS.
+         predeined CSS class - class selector
+         comtainer, row, form-control
+    
+    -->
+    <!--  Html
+       form, table, 
+      navigation bar -> ul, li
+    -->  
+   
+   <form class="pt-5">
+      <div class="row">
+         <div class="form-group col-lg-6 col-sm-2">
+            <label>Enter Email</label>
+            <input type="email" name="email" class="form-control" >
+         </div>
+
+         <div class="form-group col-lg-6 col-sm-2">
+            <label >Enter Password</label>
+            <input type="password" name="password" class="form-control" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+         </div>
+      </div>
+   </form>
+
+   <div class="row">
+      <div class="col-lg-3 col-sm-2 " >
+         <p> 
+            Well "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            translates into. "Hello world! Is here to cancel meals."
+         </p>
+      </div>
+      <div class="col-lg-9 col-sm-2" >
+         <p>
+            Well "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            translates into. "Hello world! Is here to cancel meals."
+         </p>
+      </div>
+   </div>
+   <table class="table table-responsive-sm" >
+      <tr class="thead-dark">
+         <th>Sl.No.</th>
+         <th>Juice</th>
+         <th>Quantity</th>
+         <th>Price</th>
+         <th>Description</th>
+      </tr>
+   
+      <tr>
+         <td>1</td>
+         <td>Red Label</td>
+         <td>750</td>
+         <td>1350</td>
+         <td><img src="Redlabel.jpg" alt="Redlabel" class="rounded-circle" width="150px"></td>
+      </tr>
+
+      <tr>
+         <td>2</td>
+         <td>Imperial Blue</td>
+         <td>750</td>
+         <td>480</td>
+         <td><img src="ImperialBlue.jpg" alt="ImperialBlue" class="rounded-circle" width="150px"></td>
+      </tr>
+   </table>
+
+ </body>
+ </html>
